@@ -1,7 +1,6 @@
 <template>
   <nav class="header-nav">
     <NavGitHub />
-    <n-divider vertical />
   </nav>
 </template>
 
