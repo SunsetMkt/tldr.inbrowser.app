@@ -9,6 +9,7 @@ export default defineConfig({
   plugins: [
     vue(),
     VitePWA({
+      registerType: 'autoUpdate',
       includeAssets: [
         "opensearch.xml",
         "favicon.ico",
