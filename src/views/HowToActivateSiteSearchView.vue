@@ -52,7 +52,7 @@
 
     <n-p>
       Change <n-text code style="font-size: 1em">tldr</n-text>'s shortcut from
-      <n-text code style="font-size: 1em">tldr.inbrowser.app</n-text> to
+      <n-text code style="font-size: 1em">tldr</n-text> to
       <n-text code style="font-size: 1em">tldr</n-text>
     </n-p>
 
@@ -80,7 +80,7 @@ import CopyToClipboard from "@/components/misc/CopyToClipboard.vue";
 import ChromeSiteSearch from "@/components/misc/ChromeSiteSearch/ChromeSiteSearch/ChromeSiteSearch.vue";
 
 useHead({
-  title: "How to Activate Site Search | tldr InBrowser.App",
+  title: "How to Activate Site Search | tldr",
   meta: [
     {
       name: "description",

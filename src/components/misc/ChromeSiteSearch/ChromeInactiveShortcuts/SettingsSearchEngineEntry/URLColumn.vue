@@ -1,6 +1,6 @@
 <template>
   <span id="url-column-padded" class="text-elide"
-    ><div>https://tldr.inbrowser.app/search?query=%s</div></span
+    ><div>/search?query=%s</div></span
   >
 </template>
 

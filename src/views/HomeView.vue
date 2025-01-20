@@ -17,18 +17,18 @@ import BrowseCommands from "@/components/misc/BrowseCommands.vue";
 import { useHead } from "@vueuse/head";
 
 useHead({
-  title: "tldr InBrowser.App",
+  title: "tldr",
   meta: [
     {
       name: "description",
       content:
-        "tldr InBrowser.App is an offline-capable PWA for tldr-pages. Fully runs in your browser. Zero API latency.",
+        "tldr is an offline-capable PWA for tldr-pages. Fully runs in your browser. Zero API latency.",
     },
   ],
   link: [
     {
       rel: "canonical",
-      href: `https://tldr.inbrowser.app/`,
+      href: `/`,
     },
   ],
 });

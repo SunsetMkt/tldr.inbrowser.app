@@ -1,6 +1,5 @@
 <template>
   <span>
-    <div class="inbrowser-app-text">InBrowser.App</div>
     <div class="site-sub-name">tldr</div>
   </span>
 </template>

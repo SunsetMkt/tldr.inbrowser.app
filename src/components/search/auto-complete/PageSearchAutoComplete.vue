@@ -87,7 +87,7 @@ onMounted(() => {
 
 const onSelect = (value: string | number) => {
   if (isInIframe()) {
-    window.open(`https://tldr.inbrowser.app${value}`, "_blank");
+    window.open(`${value}`, "_blank");
   } else {
     router.push(value as string);
   }

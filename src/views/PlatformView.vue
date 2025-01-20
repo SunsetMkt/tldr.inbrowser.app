@@ -45,7 +45,7 @@ const route = useRoute();
 useHead({
   title: `${platformDisplay.value} commands${
     language.value !== "" ? ` in ${languageDisplay.value}` : ""
-  } | tldr InBrowser.App`,
+  } | tldr`,
   meta: [
     {
       name: "description",
@@ -57,7 +57,7 @@ useHead({
   link: [
     {
       rel: "canonical",
-      href: `https://tldr.inbrowser.app${route.path}`,
+      href: `${route.path}`,
     },
   ],
 });

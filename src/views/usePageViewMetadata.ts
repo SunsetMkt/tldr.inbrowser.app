@@ -12,7 +12,7 @@ export function usePageViewMetadata(page: Ref<Page | undefined | null>) {
   const route = useRoute();
 
   const titlePrefix = usePageOptionalCommand(page, pageParams).command;
-  const title = computed(() => `${titlePrefix.value} | tldr InBrowser.App`);
+  const title = computed(() => `${titlePrefix.value} | tldr`);
 
   const description = computedAsync<string | undefined>(async () => {
     if (page.value?.description) {
@@ -35,7 +35,7 @@ export function usePageViewMetadata(page: Ref<Page | undefined | null>) {
       link: [
         {
           rel: "canonical",
-          href: `https://tldr.inbrowser.app${route.path}`,
+          href: `${route.path}`,
         },
       ],
     };

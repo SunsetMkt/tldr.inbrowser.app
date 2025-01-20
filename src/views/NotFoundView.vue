@@ -9,6 +9,6 @@ import { useHead } from "@vueuse/head";
 import NotFound from "@/components/misc/NotFound.vue";
 
 useHead({
-  title: "Not Found | tldr InBrowser.App",
+  title: "Not Found | tldr",
 });
 </script>

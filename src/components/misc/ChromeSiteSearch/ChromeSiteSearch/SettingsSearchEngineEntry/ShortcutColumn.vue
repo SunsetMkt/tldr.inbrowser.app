@@ -1,5 +1,5 @@
 <template>
-  <span id="shortcut-column"><div>tldr.inbrowser.app</div></span>
+  <span id="shortcut-column"><div>tldr</div></span>
 </template>
 
 <style scoped>

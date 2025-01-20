@@ -16,7 +16,7 @@ const query_ = useRouteQuery("query", "");
 const query = ref(query_.value); // fix chinese IME on iOS Safari
 
 useHead({
-  title: "Search | tldr InBrowser.App",
+  title: "Search | tldr",
   meta: [
     {
       name: "description",

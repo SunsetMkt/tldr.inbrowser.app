@@ -4,7 +4,7 @@ import { getDefaultLanguages } from "./getDefaultLanguages";
 
 export function useSearchConfig() {
   const config = useStorage(
-    "tldr.inbrowser.app:search:config",
+    "tldr:search:config",
     {
       languages: getDefaultLanguages(),
       platforms: getDefaultPlatforms(),

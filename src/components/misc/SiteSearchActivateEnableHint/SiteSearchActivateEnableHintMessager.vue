@@ -16,7 +16,7 @@ let messageReactive: MessageReactive | null = null;
 const route = useRoute();
 const message = useMessage();
 const notShown = useStorage<boolean>(
-  "tldr.inbrowser.app:site-search-activate-enable-hint-not-shown",
+  "tldr:site-search-activate-enable-hint-not-shown",
   false
 );
 const delay = 5000;

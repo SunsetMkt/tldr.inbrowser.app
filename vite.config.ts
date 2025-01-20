@@ -18,10 +18,10 @@ export default defineConfig({
         "tldr-pages.zip",
       ],
       manifest: {
-        name: "tldr InBrowser.App",
+        name: "tldr",
         short_name: "tldr",
         description:
-          "tldr InBrowser.App is an offline-capable PWA for tldr-pages. Fully runs in your browser. Zero API latency.",
+          "tldr is an offline-capable PWA for tldr-pages. Fully runs in your browser. Zero API latency.",
         theme_color: "#ffffff",
         icons: [
           {

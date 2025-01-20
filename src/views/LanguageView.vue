@@ -35,7 +35,7 @@ const { platformCounter } = useLanguagePlatforms(language);
 const route = useRoute();
 
 useHead({
-  title: `Commands in ${languageDisplay.value} | tldr InBrowser.App`,
+  title: `Commands in ${languageDisplay.value} | tldr`,
   meta: [
     {
       name: "description",
@@ -45,7 +45,7 @@ useHead({
   link: [
     {
       rel: "canonical",
-      href: `https://tldr.inbrowser.app${route.path}`,
+      href: `${route.path}`,
     },
   ],
 });
