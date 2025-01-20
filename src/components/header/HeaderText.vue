@@ -16,7 +16,7 @@
     </n-h1>
     <n-h2 class="h2" v-if="!isIframe">
       tldr is an offline-capable PWA for tldr-pages. Fully runs in
-      your browser. Zero API latency.
+      your browser. Zero API latency. Originally created by InBrowserApp.
     </n-h2>
   </div>
 </template>
