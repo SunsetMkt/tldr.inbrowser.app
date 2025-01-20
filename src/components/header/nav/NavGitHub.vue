@@ -2,7 +2,7 @@
   <n-button
     text
     tag="a"
-    href="https://github.com/InBrowserApp/tldr.inbrowser.app"
+    href="https://github.com/SunsetMkt/tldr.inbrowser.app"
     target="_blank"
   >
     <template #icon>
