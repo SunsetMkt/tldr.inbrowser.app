@@ -22,7 +22,7 @@ useHead({
     {
       name: "description",
       content:
-        "tldr is an offline-capable PWA for tldr-pages. Fully runs in your browser. Zero API latency.",
+        "tldr is an offline-capable PWA for tldr-pages.",
     },
   ],
   link: [

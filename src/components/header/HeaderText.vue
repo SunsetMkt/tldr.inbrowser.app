@@ -15,8 +15,7 @@
       </router-link>
     </n-h1>
     <n-h2 class="h2" v-if="!isIframe">
-      tldr is an offline-capable PWA for tldr-pages. Fully runs in
-      your browser. Zero API latency.
+      tldr is an offline-capable PWA for tldr-pages.
     </n-h2>
   </div>
 </template>
