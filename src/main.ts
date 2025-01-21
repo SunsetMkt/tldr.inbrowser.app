@@ -1,6 +1,9 @@
 import { createApp } from "vue";
 import { createHead } from "@vueuse/head";
 import VueGtag from "vue-gtag";
+import { registerSW } from 'virtual:pwa-register';
+
+registerSW({ immediate: true });
 
 import App from "./App.vue";
 import router from "./router";

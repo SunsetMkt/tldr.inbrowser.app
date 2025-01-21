@@ -9,7 +9,15 @@ export default defineConfig({
   plugins: [
     vue(),
     VitePWA({
-      registerType: 'autoUpdate',
+      registerType: "autoUpdate",
+      workbox: {
+        clientsClaim: true,
+        skipWaiting: true,
+      },
+      devOptions: {
+        enabled: true,
+      },
+      injectRegister: "auto",
       includeAssets: [
         "opensearch.xml",
         "favicon.ico",
