@@ -13,6 +13,19 @@ export default defineConfig({
       workbox: {
         clientsClaim: true,
         skipWaiting: true,
+        runtimeCaching: [
+          {
+            urlPattern: /tldr-pages\.zip$/,
+            handler: "StaleWhileRevalidate",
+            options: {
+              cacheName: "tldr-pages-cache",
+              expiration: {
+                maxEntries: 1,
+                maxAgeSeconds: 60 * 60 * 24,
+              },
+            },
+          },
+        ],
       },
       devOptions: {
         enabled: true,
