@@ -18,8 +18,17 @@
 import { NButton, NIcon } from "naive-ui";
 import { ArrowRotateClockwise16Regular } from "@vicons/fluent";
 
+var clickCounter = 0;
+
 // 强制删除所有 Service Worker、缓存、SessionStorage 和 LocalStorage，并刷新页面
 async function clearServiceWorkersAndCaches() {
+  clickCounter++;
+
+  if (clickCounter < 10) {
+    console.log("点击次数:", clickCounter);
+    return;
+  }
+
   try {
     // 注销所有 Service Worker
     if ("serviceWorker" in navigator) {
