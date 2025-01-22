@@ -9,6 +9,15 @@ export default defineConfig({
   plugins: [
     vue(),
     VitePWA({
+      registerType: "autoUpdate",
+      workbox: {
+        clientsClaim: true,
+        skipWaiting: true,
+      },
+      devOptions: {
+        enabled: true,
+      },
+      injectRegister: "auto",
       includeAssets: [
         "opensearch.xml",
         "favicon.ico",
@@ -20,8 +29,7 @@ export default defineConfig({
       manifest: {
         name: "tldr",
         short_name: "tldr",
-        description:
-          "tldr is an offline-capable PWA for tldr-pages.",
+        description: "tldr is an offline-capable PWA for tldr-pages.",
         theme_color: "#ffffff",
         icons: [
           {
